@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins','sans-sarif';
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  /* background-color: red; */
+}
+
+:root{
+  --primary: #ffffff;
+  --secondary: #f4f4f4 ;
+  --accent: #5780f5;
+} 
+.gridItems{
+  width: 100%;
+  padding: 0px 50px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
+
+.gridItems.gridOne{
+  grid-template-columns: auto;
+}
+
+.gridItems .note{
+  width: 23vw;
+  background-color: var(--secondary);
+  padding: 10px;
+  cursor: pointer;
+  height: 260px;
+  /* border: 2px solid red; */
+}
+.sp-text{
+  color: var(--accent);
+}
+.jodit-wysiwyg{
+  min-height: 200px !important;
+}
+
+.checkBox.active{
+background-color: #578DF5;
+}
